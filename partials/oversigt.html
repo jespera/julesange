@@ -1,0 +1,24 @@
+<h1>Julesange</h1>
+<div id="wrap">
+	<img ng-src="images/tree.png" />
+</div>
+<script>	
+	var cur_url = window.localStorage.getItem("cur_url");
+	if(cur_url) {
+		window.localStorage.removeItem("cur_url");
+		window.location.hash = cur_url;
+	}
+</script>
+<ul>
+	<li ng-repeat="sang in sange">
+	<p><a href="#/sang/{{$index}}"><b ng-bind-html="sang.title"></b></a></p>
+	</li>
+</ul>
+<br>
+<h2>Juletekster...</h2>
+<ul>
+<li ng-repeat="evang in evangelier">
+<p><a href="#/evangelie/{{$index}}"><b ng-bind-html="evang.title"></b></a>
+</p>
+</li>
+</ul>
