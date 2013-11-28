@@ -23,6 +23,8 @@
 	<preference name="phonegap-version" value="2.9.0" />
 	<preference name="fullscreen" value="true" />
 
+	<icon src="icon.png" />
+
 	<!-- for android -->
 	<preference name="android-minSdkVersion" value="10" />
 	<preference name="splash-screen-duration" value="0" />
