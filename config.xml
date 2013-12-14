@@ -20,6 +20,8 @@
 	<gap:platform name="android" />
 	<gap:platform name="winphone" />
 
+	<gap:splash src="splash.png" />
+
 	<preference name="phonegap-version" value="2.9.0" />
 	<preference name="fullscreen" value="true" />
 
