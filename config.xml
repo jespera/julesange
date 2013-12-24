@@ -28,7 +28,7 @@
 	<icon src="icon.png" />
 
 	<!-- for android -->
-	<preference name="android-minSdkVersion" value="7" />
+	<preference name="android-minSdkVersion" value="10" />
 	<preference name="splash-screen-duration" value="0" />
 
 	<preference name="permissions" value="none" />
