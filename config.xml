@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "dk.jellej"
-	version   = "1.6.1">
+	version   = "1.6.2">
 
 	<!-- versionCode is optional and Android only -->
 
@@ -29,7 +29,7 @@
 
 	<!-- for android -->
 	<preference name="android-minSdkVersion" value="10" />
-	<preference name="splash-screen-duration" value="0" />
+	<preference name="splash-screen-duration" value="100" />
 
 	<preference name="permissions" value="none" />
 </widget>
