@@ -22,8 +22,10 @@
 
 	<gap:splash src="splash.png" />
 
-	<preference name="phonegap-version" value="2.9.0" />
+	<preference name="phonegap-version" value="3.1.0" />
 	<preference name="fullscreen" value="true" />
+
+	<gap:plugin name="Media" value="org.apache.cordova.media" />
 
 	<icon src="icon.png" />
 
