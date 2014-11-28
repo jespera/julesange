@@ -44,7 +44,8 @@ sange = [
 	"Det budskab nu længe har lyd over <br>jorden, at Jesus som frelser for <br>syndere kom. <br>Selv vi, som har hjemme heroppe i <br>Norden, har alle, o Herre, hørt tale derom.<br>Du, som bedst os kendte, dit ord til <br>at sendte, dit hjertelag mod os vi nu <br>kan forstå. <br>O, måtte dog mange ved englenes <br>sange få lyst med al nød hen til <br>Jesus at gå. <br>",
 	"Den glæde skal folket på jord nu <br>erfare, hver sjæl, som vil komme, <br>kan tage imod <br>den gave fra Gud, som han lod <br>åbenbare, den ligger nu rede for <br>synderes fod. <br>Det mange har vovet, er saligt <br>hensovet i troen på Jesus og <br>hjemme hos Gud; <br>Dog flere sig vendte fra gaven, han <br>sendte, foragtede Frelseren, glemte <br>hans bud. <br>",
 	"O, måtte dog vi, som endnu her må<br>vandre, med glæde ret lytte til <br>englenes sang, <br>at vi omkring tronen må skue <br>hverandre, når her vi har sluttet vor <br>pilegrimsgang. <br>Da frelste vi skulle lovprise til fulde <br>det barn, som i krybben i Betlehem lå; <br>må engang, I kære, hos Jesus vi <br>være, hans kærlighed bedre vi da <br>skal forstå.<br>"]},
-{title:"Nu tændes tusind julelys",
+		{ audio: "audio/julelys.mp3",
+				title:"Nu tændes tusind julelys", // 
 	text:["Nu tændes tusind julelys<br>på jorden mørk og rund,<br>og tusind stjerner stråler smukt<br>på himlens dybblå grund.<br>",
 	"Og over by og land i nat<br>går julens glade bud,<br>at født er Herren Jesus Krist<br>vor frelser og vor Gud.<br>",
 	"Du stjerne over Betlehem<br>oh, lad dit milde lys<br>oplyse alt med håb og fred,<br>så kærligheden ses.<br>",
@@ -155,10 +156,39 @@ function OversigtCntl($scope) {
 }
 
 function SangCntl($scope, $routeParams) {
+	$scope.isPlaying = false;
 	$scope.sangId = $routeParams.sangId;
 	$scope.getSong = function(id) {
 		return sange[id];
 	}
+		$scope.playSong = function() {
+				if(!media) {
+						console.log("no media!");
+						return;
+				}
+				if($scope.isPlaying) {
+						console.log("stopping");
+						media.stop();
+						$scope.isPlaying = false;
+				} else {
+						console.log("starting replay of " + sange[$scope.sangId].audio);
+						media.play();
+						$scope.isPlaying = true;
+				}
+		}
+
+	document.addEventListener("deviceready",onDeviceReady,false);
+
+		var media;
+		
+		function onDeviceReady () {
+				var mediaUrl = sange[$scope.sangId].audio;
+				console.log("media ready@ " + mediaUrl);
+				media = new Media("audio/julelys.mp3");
+				console.log("media? " + media + " " + media.play);
+				//  media.play();
+		}
+
 }
 
 function EvangCntl($scope, $routeParams) {
