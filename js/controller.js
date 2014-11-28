@@ -150,6 +150,12 @@ sange.sort(function (s1, s2) {
 		      (A > B) ? +1 : 0);
 });
 
+function getPhoneGapPath() {
+    var path = window.location.pathname;
+    path = path.substr( path, path.length - 10 );
+    return 'file://' + path;
+};
+
 function OversigtCntl($scope) {
 	$scope.sange = sange;
 	$scope.evangelier = evangelier;
@@ -176,14 +182,14 @@ function SangCntl($scope, $routeParams) {
 						$scope.isPlaying = true;
 				}
 		}
-
-	document.addEventListener("deviceready",onDeviceReady,false);
+		
+		document.addEventListener("deviceready",onDeviceReady,false);
 
 		var media;
 		
 		function onDeviceReady () {
-				var mediaUrl = sange[$scope.sangId].audio;
-				console.log("media ready@ " + mediaUrl);
+				var mediaUrl = getPhoneGapPath() + sange[$scope.sangId].audio;
+				console.log("media ready " + mediaUrl);
 				media = new Media("audio/julelys.mp3");
 				console.log("media? " + media + " " + media.play);
 				//  media.play();
