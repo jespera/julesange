@@ -25,7 +25,7 @@
 	<preference name="phonegap-version" value="3.1.0" />
 	<preference name="fullscreen" value="true" />
 
-	<gap:plugin name="Media" value="org.apache.cordova.media" />
+	<gap:plugin name="org.apache.cordova.media" version="0.2.8" />
 
 	<icon src="icon.png" />
 
