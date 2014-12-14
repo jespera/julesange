@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="dk.jellej" version="1.6.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <name>Julesange</name>
+    <description>
+		Julesange til alle.
+	</description>
+    <author email="jespera@gmail.com" href="http://www.jel-lej.dk">
+		Jesper Andersen
+	</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <cdv:splash src="splash.png" />
+    <preference name="fullscreen" value="true" />
+    <cdv:plugin name="org.apache.cordova.media" version="0.2.13" />
+    <cdv:plugin name="org.apache.cordova.device" version="0.2.12	" />
+    <cdv:platform name="android" />
+    <icon src="icon.png" />
+    <preference name="android-minSdkVersion" value="10" />
+    <preference name="splash-screen-duration" value="100" />
+    <preference name="permissions" value="none" />
+</widget>

@@ -1,0 +1,35 @@
+	<!--<script>-->
+		<!--var cur_url = window.localStorage.getItem("cur_url");-->
+		<!--window.addEventListener("orientationchange", orientationChange, true);-->
+		<!--function orientationChange(e) {-->
+			<!--cur_url = window.location.hash;-->
+			<!--window.localStorage.setItem("cur_url", cur_url);-->
+			<!--window.removeEventListener("orientationchange", orientationChange);-->
+		<!--}-->
+	<!--</script>-->
+<a href="#" style="color: #608060; font-size: 48px; position:fixed; margin-top: -24px; top:0; left:0;">&larr;</a>
+<h1 ng-bind-html="getEvang(evangId).title"></h1>
+
+<div class="evangtext" ng-bind-html="getEvang(evangId).text"></div>
+<!--
+<script>
+function getPhoneGapPath() {
+    var path = window.location.pathname;
+    path = path.substr( path, path.length - 10 );
+    return 'file://' + path;
+};
+
+document.addEventListener("deviceready",onDeviceReady,false);
+
+var media;
+
+function onDeviceReady () {
+	var mediaUrl = getPhoneGapPath() + "audio/sound.wav";
+    console.log("media ready@ " + mediaUrl);
+    media = new Media(mediaUrl);
+    console.log("media? " + media + " " + media.play);
+    media.play(); 
+}
+</script>
+-->
+

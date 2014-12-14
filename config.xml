@@ -1,32 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-	xmlns:gap = "http://phonegap.com/ns/1.0"
-	id        = "dk.jellej"
-	version   = "1.6.3">
-
-	<!-- versionCode is optional and Android only -->
+<?xml version='1.0' encoding='utf-8'?>
+<widget 
+	id="dk.jellej" 
+	version="1.6.3" 
+	xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:cdv="http://cordova.apache.org/ns/1.0">
 
 	<name>Julesange</name>
-
 	<description>
 		Julesange til alle.
 	</description>
-
-	<author href="https://build.phonegap.com" email="jespera@gmail.com">
+	<author email="jespera@gmail.com" href="http://www.jel-lej.dk">
 		Jesper Andersen
 	</author>
+	<content src="index.html" />
+	<access origin="*" />
 
-	<gap:platform name="ios" />
-	<gap:platform name="android" />
-	<gap:platform name="winphone" />
 
-	<gap:splash src="splash.png" />
 
-	<preference name="phonegap-version" value="3.1.0" />
+	<cdv:splash src="splash.png" />
+	
 	<preference name="fullscreen" value="true" />
 
-	<gap:plugin name="org.apache.cordova.media" version="0.2.8" />
+	<cdv:plugin name="org.apache.cordova.media" version="0.2.13" />
+	<cdv:plugin name="org.apache.cordova.device" version="0.2.12	" />
 
+	<cdv:platform name="android" />
 	<icon src="icon.png" />
 
 	<!-- for android -->
