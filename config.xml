@@ -23,9 +23,6 @@
 	
 	<preference name="fullscreen" value="true" />
 
-	<cdv:plugin name="org.apache.cordova.media" version="0.2.13" />
-	<cdv:plugin name="org.apache.cordova.device" version="0.2.12	" />
-
 	<cdv:platform name="android" />
 	<icon src="icon.png" />
 
