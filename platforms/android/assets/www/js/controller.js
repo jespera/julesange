@@ -1,3 +1,40 @@
+lokale = [
+		{title:"I mârn e'd jyl (Bornholm)",
+		 text: [
+				 "Kårta, svårta, sjymma dâ,<br/>" +
+						 "aWtana så långa! <br/>" +
+						 "Bæstamoer, mijl å glâ, <br/>"+
+						 "nynnar jylasånga. <br/>"+
+						 "Âueralt e stor ståhaj, <br/>"+
+						 "dâr hanj goer å gassar saj, <br/>"+
+						 "å te goa venner <br/>"+
+						 "Jylakårt hanj sænner.",
+				 "Moer hon må fæjes me,<br/>"+
+						 "hon ska kâga bâga, <br/> "+
+						 "Anna - lindinj stompinj e -<br/> "+
+						 "vil hâ lâu å smâga. <br/> "+
+						 "\"Liden Skre du her ska hâ, <br/>"+
+						 "å når du vil varra brâ,\"<br/> "+
+						 "få te Jyl en dokka<br/> "+
+						 "om kanj iven lokka.«",
+				 "Hâns hanj vil nok jælpa fâr <br/> "+
+						 "jylatræd å hænta,<br/> "+
+						 "forr hanj løvver, å hanj hâr<br/> "+
+						 "foje tid å vænta. <br/> "+
+						 "Ræjti stort ded varra må, <br/> "+
+						 "helt te tijled op ska'd nå, <br/> "+
+						 "Lyz å korra granja, <br/> "+
+						 "många kâgemanja!",
+				 "Bællana, som læja sjyjl,<br/> "+
+						 "glømma rent å tælla.<br/> "+
+						 "»Tra-la-la, i Mârn e'd jyl«, <br/> "+
+						 "ajle e som bælla.<br/> "+
+						 "Jyln hon vârar ver te Knud, <br/> "+
+						 "vess hon inte drives ud <br/> "+
+						 "te Fâstelann, jâ troer -<br/> "+
+						 "sporr mæn bæsta	moer!"]}
+];
+
 evangelier = [
 {title:"Lukasevangeliet",
  text:"Lukasevangeliet - Kapitel 2 - vers 1-20<br> <br>Og det skete i de dage, at der udgik en befaling fra kejser Augustus om at holde folketælling i hele verden. <br>Det var den første folketælling, mens Kvirinius var statholder i Syrien. <br>Og alle drog hen for at lade sig indskrive, hver til sin by. <br>Også Josef drog op fra byen Nazaret i Galilæa til Judæa, til Davids by, som hedder Betlehem, fordi han var af Davids hus og slægt, <br>for at lade sig indskrive sammen med Maria, sin forlovede, som ventede et barn. <br>Og mens de var dér, kom tiden, da hun skulle føde; <br>og hun fødte sin søn, den førstefødte, og svøbte ham og lagde ham i en krybbe, for der var ikke plads til dem i herberget.<br> <br>I den samme egn var der hyrder, som lå ude på marken og holdt nattevagt over deres hjord. <br>Da stod Herrens engel for dem, og Herrens herlighed strålede om dem, og de blev grebet af stor frygt. <br>Men englen sagde til dem: »Frygt ikke! Se, jeg forkynder jer en stor glæde, som skal være for hele folket: <br>I dag er der født jer en frelser i Davids by; han er Kristus, Herren. <br>Og dette er tegnet, I får: I skal finde et barn, som er svøbt og ligger i en krybbe.« <br>Og med ét var der sammen med englen en himmelsk hærskare, som lovpriste Gud og sang:<br>Ære være Gud i det højeste og på jorden! Fred til mennesker med Guds velbehag!<br> <br>Og da englene havde forladt dem og var vendt tilbage til himlen, sagde hyrderne til hinanden: »Lad os gå ind til Betlehem og se det, som er sket, og som Herren har forkyndt os.« <br>De skyndte sig derhen og fandt Maria og Josef sammen med barnet, som lå i krybben. <br>Da de havde set det, fortalte de, hvad der var blevet sagt til dem om dette barn, <br>og alle, der hørte det, undrede sig over, hvad hyrderne fortalte dem; <br>men Maria gemte alle disse ord i sit hjerte og grundede over dem. <br>Så vendte hyrderne tilbage og priste og lovede Gud for alt, hvad de havde hørt og set, sådan som det var blevet sagt til dem."
@@ -8,16 +45,16 @@ evangelier = [
 }];
 
 sange = [
-{title:"Børn og voksne i kærlig krans",
-	text:[
-		"Børn og voksne i kærlig krans<br>rundt omkring træet vandre<br>alt under lysenes festlige glans<br>hånd i hånd med hverandre.",
-	  "Ak! om vi kunne føre enhver,<br>som er forladt og ene,<br>ind under lysenes rigdom her<br>under de grønklædte grene.",
-		"Ak! om vi kunne med barnetro<br>fylde de hjerter, som græde!<br>så at de følte barnefro<br>julens velsignede glæde..."
-]},
-{title:"Santa Lucia",
- text:["Nu bæres lyset frem<br>stolt på din krone<br>rundt om i hus og hjem<br>sangen skal tone<br>nu på Lucia-dag<br>hilser vort vennelag<br>Santa Lucia, Santa Lucia",
-	"Her ved vor ønskefest<br>sangen skal klinge<br>gaver til hver en gæst<br>glad vil du bringe<br>skænk os af lykkens væld<br>lige til livets kvæld<br>Santa Lucia, Santa Lucia"]
-},
+		{title:"Børn og voksne i kærlig krans",
+		 text:[
+				 "Børn og voksne i kærlig krans<br>rundt omkring træet vandre<br>alt under lysenes festlige glans<br>hånd i hånd med hverandre.",
+				 "Ak! om vi kunne føre enhver,<br>som er forladt og ene,<br>ind under lysenes rigdom her<br>under de grønklædte grene.",
+				 "Ak! om vi kunne med barnetro<br>fylde de hjerter, som græde!<br>så at de følte barnefro<br>julens velsignede glæde..."
+		 ]},
+		{title:"Santa Lucia",
+		 text:["Nu bæres lyset frem<br>stolt på din krone<br>rundt om i hus og hjem<br>sangen skal tone<br>nu på Lucia-dag<br>hilser vort vennelag<br>Santa Lucia, Santa Lucia",
+					 "Her ved vor ønskefest<br>sangen skal klinge<br>gaver til hver en gæst<br>glad vil du bringe<br>skænk os af lykkens væld<br>lige til livets kvæld<br>Santa Lucia, Santa Lucia"]
+		},
 {title:"Nu har vi altså jul igen",
  text:["Nu har vi altså jul igen, der la´r sig ikke skjule<br>og vi er vældig med på den, vi snakker kun om jule<br>om julesne og julegran og julelys og gaver<br>og julefest og julemad og julestads vi laver.<br>Ja, hvor man end sig vender hen, så er det jul og jul igen<br>og jul og jul og jul og jul og jul igen.",
 	"Om julekort og julespøg og mosters julebagen,<br>og at man bliver julesløj på tredie juledagen<br>man være nok så juleglad, når juletræet stråler<br>den alt for gode julemad man ikke længere tåler.<br>Ja, hvor man end sig vender hen, så er det jul og jul igen<br>og jul og jul og jul og jul og jul igen.",
@@ -44,8 +81,8 @@ sange = [
 	"Det budskab nu længe har lyd over <br>jorden, at Jesus som frelser for <br>syndere kom. <br>Selv vi, som har hjemme heroppe i <br>Norden, har alle, o Herre, hørt tale derom.<br>Du, som bedst os kendte, dit ord til <br>at sendte, dit hjertelag mod os vi nu <br>kan forstå. <br>O, måtte dog mange ved englenes <br>sange få lyst med al nød hen til <br>Jesus at gå. <br>",
 	"Den glæde skal folket på jord nu <br>erfare, hver sjæl, som vil komme, <br>kan tage imod <br>den gave fra Gud, som han lod <br>åbenbare, den ligger nu rede for <br>synderes fod. <br>Det mange har vovet, er saligt <br>hensovet i troen på Jesus og <br>hjemme hos Gud; <br>Dog flere sig vendte fra gaven, han <br>sendte, foragtede Frelseren, glemte <br>hans bud. <br>",
 	"O, måtte dog vi, som endnu her må<br>vandre, med glæde ret lytte til <br>englenes sang, <br>at vi omkring tronen må skue <br>hverandre, når her vi har sluttet vor <br>pilegrimsgang. <br>Da frelste vi skulle lovprise til fulde <br>det barn, som i krybben i Betlehem lå; <br>må engang, I kære, hos Jesus vi <br>være, hans kærlighed bedre vi da <br>skal forstå.<br>"]},
-		{ audio: "audio/julelys.mp3",
-				title:"Nu tændes tusind julelys", // 
+		{ audio: "www/audio/julelys.mp3",
+				title:"Nu tændes tusind julelys", //
 	text:["Nu tændes tusind julelys<br>på jorden mørk og rund,<br>og tusind stjerner stråler smukt<br>på himlens dybblå grund.<br>",
 	"Og over by og land i nat<br>går julens glade bud,<br>at født er Herren Jesus Krist<br>vor frelser og vor Gud.<br>",
 	"Du stjerne over Betlehem<br>oh, lad dit milde lys<br>oplyse alt med håb og fred,<br>så kærligheden ses.<br>",
@@ -85,12 +122,12 @@ sange = [
 	text:["Julen har englelyd,<br>vi med fryd<br>os barnlig på Gud Fader<br>forlader.<br>Vi var i nød så længe,<br>dog hørte han vor bøn,<br>han ved, hvortil vi trænge,<br>vor frelser blev Guds Søn.<br>Thi vil vi alle sjunge<br>med hjerte og med tunge:<br>et ære være Gud<br>for sit julebud!<br>",
 	"Ret i en salig tid<br>kom han hid.<br>Til levende og døde<br>genløde<br>de ord, der for så vide<br>til alle tider hen<br>om ham, som tog vor kvide<br>og gav os fryd igen,<br>gik ned for os i døden,<br>som sol i aftenrøden,<br>og stod i morgengry<br>op for os på ny.<br>",
 	"Sorg er til glæde vendt,<br>klagen endt.<br>Vor glæde skal hver tunge<br>udsjunge.<br>Syng med Guds engleskare<br>på Jesu fødselsdag<br>om fred trods nød og fare<br>Gud Faders velbehag,<br>som vil al sorgen vende<br>til glæde uden ende,<br>bær os på børnevis<br>ind i paradis."]},
-{title:"Julen har bragt velsignet bud",
+{title:"Julen har bragt velsignet bud", audio: "www/audio/Julen har bragt velsignet bud.mp3", 
 	text:["Julen har bragt velsignet bud.<br>Nu glædes gamle og unge:<br>Hvad englene sang i verden ud,<br>nu alle små børn skal sjunge.<br>Grenen fra livets træ står skønt<br>med lys som fugle på kviste.<br>Det barn, som sig glæder fromt og kønt,<br>skal aldrig den glæde miste.<br>",
 	"Glæden er jordens gæst i dag<br>med himmelkongen den lille.<br>Du fattige spurv! Flyv ned fra tag<br>med duen til julegilde!<br>Dans, lille barn, på moders skød!<br>En dejlig dag er oprunden:<br>I dag blev vor kære frelser fød<br>og paradisvejen funden.<br>",
 	"Frelseren selv var barn som vi,<br>i dag han lå i sin vugge.<br>Den have, Guds engle flyve i,<br>vil Jesus for os oplukke.<br>Himmerigs konge blandt os bor,<br>han juleglæden os bringer,<br>han favner hver barnesjæl på jord<br>og lover os englevinger."]},
 
-{title:"Højt fra træets grønne top",
+{title:"Højt fra træets grønne top", audio: "www/audio/Hojt fra traets gronne top.mp3",
 	text:["Højt fra træets grønne top<br>stråler juleglansen,<br>spillemand, spil lystigt op,<br>nu begynder dansen.<br>Læg nu smukt din hånd i min,<br>ikke rør' ved den rosin!<br>Først skal træet vises,<br>siden skal det spises.<br>",
 	"Se, børnlil, nu går det godt,<br>I forstår at trave,<br>lad den lille Sine blot<br>få sin julegave.<br>Løs kun selv det røde bånd!<br>Hvor du ryster på din hånd!<br>Når du strammer garnet,<br>kvæler du jo barnet.<br>",
 	"Peter har den gren så kær,<br>hvorpå trommen hænger,<br>hver gang han den kommer nær,<br>vil han ikke længer.<br>Hvad du ønsker, skal du få,<br>når jeg blot kan stole på,<br>at du ej vil tromme,<br>før min sang er omme.<br>",
@@ -110,13 +147,13 @@ sange = [
 	"Så skal det ske, at vi engang,<br>blandt alle helgens frydesang<br>i himlens søde paradis<br>skal prise dig på englevis.<br>",
 	"Her står vi nu i flok og rad<br>om dig, vort skønne hjerteblad!<br>Ak, hjælp at vi og alle må<br>i himlen for din trone stå!"]},
 
-{title:"Glade jul, dejlige jul",
+{title:"Glade jul, dejlige jul", audio: "www/audio/Glade jul.mp3",
 	text:["Glade jul, dejlige jul,<br>engle daler ned i skjul!<br>Hid de flyver med paradisgrønt,<br>hvor de ser, hvad for Gud er kønt,<br>lønlig iblandt os de går,<br>- lønlig iblandt os de går!<br>","Julefryd, evige fryd,<br>hellig sang med himmelsk lyd!<br>Det er englene, hyrderne så,<br>dengang Herren i krybben lå,<br>evig er englenes sang,<br>- evig er englenes sang.<br>","Fred på jord, fryd på jord,<br>Jesusbarnet blandt os bor!<br>Engle sjunger om barnet så smukt,<br>han har Himmerigs dør oplukt,<br>salig er englenes sang,<br>- salig er englenes sang.<br>","Salig fred, himmelsk fred<br>toner julenat herned!<br>Engle bringer til store og små<br>bud om ham, som i krybben lå;<br>fryd dig, hver sjæl, han har frelst,<br>- fryd dig, hver sjæl, han har frelst!"]},
 {title:"En rose så jeg skyde",
 	text:["En rose så jeg skyde<br>op af den frosne jord,<br>alt som os fordum spåde<br>profetens trøsteord.<br>Den rose spired frem<br>midt i den kolde vinter<br>om nat ved Bethlehem.<br>","For rosen nu jeg kvæder<br>omkap med Himlens hær:<br>en jomfru var hans moder,<br>Maria ren og skær.<br>I ham brød lyset frem<br>midt i den mørke vinter<br>om nat ved Bethlehem.<br>","Den rose fin og lille<br>har dejlig duft og skær,<br>den lyse for os ville<br>og sprede mørket her.<br>I sandhed mand og Gud,<br>af syndens nød og pine<br>han nådig hjalp os ud."]},
 {title:"En lille nisse rejste",
 	text:["En lille nisse rejste<br>med ekstrapost fra land til land,<br>hans agt det var at hilse<br>på verdens største mand.<br>","Han kom til stormogulen<br>og der, hvor kæmpekålen gror,<br>men mellem alle kæmper<br>ham tyktes ingen stor.<br>","Da gik han ned til havet<br>og stirred i det klare vand,<br>han smilte, thi nu havde<br>han set den største mand."]},
-{title:"Det kimer nu til julefest",
+{title:"Det kimer nu til julefest", audio: "www/audio/Det kimer nu til julefest.mp3",
 	text:["Det kimer nu til julefest,<br>det kimer for den høje gæst,<br>som steg til lave hytter ned<br>med nytårsgaver: fryd og fred.<br>",
 	"O, kommer med til Davids by,<br>hvor engle sjunger under sky,<br>o, ganger med på marken ud,<br>hvor hyrder hører nyt fra Gud!<br>",
 	"Og lad os gå med stille sind<br>som hyrderne til barnet ind,<br>med glædestårer takke Gud<br>for miskundhed og nådesbud!<br>",
@@ -129,110 +166,175 @@ sange = [
 {title:"Den yndigste rose er funden",
 	text:["Den yndigste rose er funden,<br>blandt stiveste torne oprunden,<br>vor Jesus, den dejligste pode,<br>blandt syndige mennesker gro'de.<br>","Alt siden vi tabte den ære,<br>Guds billedes frugter at bære,<br>var verden forvildet og øde,<br>vi alle i synden bortdøde.<br>","Da lod Gud en rose opskyde<br>og sæden omsider frembryde,<br>at rense og ganske forsøde<br>vor slægts den fordærvede grøde.<br>","Al verden nu burde sig fryde,<br>med salmer mangfoldig udbryde,<br>men mangen har aldrig fornummen,<br>at rosen i verden er kommen.<br>","Forhærdede tidsel-gemytter,<br>Så stive som torne og støtter,<br>hvi holde I eder så ranke<br>i stoltheds fordærvede tanke.<br>","Ak, søger de ydmyge steder,<br>i støvet for frelseren græder,<br>så få I vor Jesus i tale,<br>thi roserne vokse i dale.<br>","Min Jesus, du altid skal være<br>mit smykke, min rose og ære,<br>de giftige lyster du døder<br>og korset så liflig forsøder.<br>","Lad verden mig alting betage,<br>lad tornene rive og nage,<br>lad hjertet kun dåne og briste,<br>min rose jeg aldrig vil miste."]
 },
-{title:"Dejlig er jorden",text:["Dejlig er jorden,<br>prægtig er Guds himmel,<br>skøn er sjælenes pilgrimsgang!<br>Gennem de fagre<br>riger på jorden<br>gå vi til paradis med sang!<br>","Tider skal komme,<br>tider skal henrulle,<br>slægt skal følge slægters gang.<br>Aldrig forstummer<br>tonen fra himlen<br>i sjælens glade pilgrimssang.<br>","Englene sang den<br>først for markens hyrder,<br>skønt fra sjæl til sjæl det lød:<br>Fred over jorden!<br>Menneske, fryd dig,<br>os er en evig frelser fød!"]},
-{title:"Dejlig er den himmel blå",text:["Dejlig er den himmel blå,<br>lyst det er at se derpå,<br>hvor de gyldne stjerner blinke,<br>hvor de smile, hvor de vinke<br>os fra jorden op til sig,<br>os fra jorden op til sig.<br>","Det var midt i julenat,<br>hver en stjerne glimted mat,<br>men med ét der blev at skue<br>én så klar på himlens bue<br>som en lille stjernesol,<br>som en lille stjernesol.<br>","Når den stjerne lys og blid<br>sig lod se ved midnatstid,<br>var det sagn fra gamle dage,<br>at en konge uden mage<br>skulle fødes på vor jord,<br>skulle fødes på vor jord.<br>","Vise mænd fra østerland<br>drog i verden ud på stand<br>for den konge at oplede,<br>for den konge at tilbede,<br>som var født i samme stund,<br>som var født i samme stund.<br>","De ham fandt i Davids hjem,<br>de ham fandt i Betlehem,<br>uden spir og kongetrone,<br>der kun sad en fattig kone,<br>vugged barnet i sit skød,<br>vugged barnet i sit skød.<br>","Stjernen ledte vise mænd<br>til vor Herre Kristus hen;<br>vi har og en ledestjerne,<br>og når vi den følger gerne,<br>kommer vi til Jesus Krist,<br>kommer vi til Jesus Krist.<br>","Denne stjerne lys og mild,<br>som kan aldrig lede vild,<br>er hans guddoms-ord det klare,<br>som han os lod åbenbare<br>til at lyse for vor fod,<br>til at lyse for vor fod.<br>"]},
+{title:"Dejlig er jorden", audio: "www/audio/Dejlig er jorden.mp3", text:["Dejlig er jorden,<br>prægtig er Guds himmel,<br>skøn er sjælenes pilgrimsgang!<br>Gennem de fagre<br>riger på jorden<br>gå vi til paradis med sang!<br>","Tider skal komme,<br>tider skal henrulle,<br>slægt skal følge slægters gang.<br>Aldrig forstummer<br>tonen fra himlen<br>i sjælens glade pilgrimssang.<br>","Englene sang den<br>først for markens hyrder,<br>skønt fra sjæl til sjæl det lød:<br>Fred over jorden!<br>Menneske, fryd dig,<br>os er en evig frelser fød!"]},
+{title:"Dejlig er den himmel blå", audio: "www/audio/Dejlig er den himmel bla.mp3",
+text:["Dejlig er den himmel blå,<br>lyst det er at se derpå,<br>hvor de gyldne stjerner blinke,<br>hvor de smile, hvor de vinke<br>os fra jorden op til sig,<br>os fra jorden op til sig.<br>","Det var midt i julenat,<br>hver en stjerne glimted mat,<br>men med ét der blev at skue<br>én så klar på himlens bue<br>som en lille stjernesol,<br>som en lille stjernesol.<br>","Når den stjerne lys og blid<br>sig lod se ved midnatstid,<br>var det sagn fra gamle dage,<br>at en konge uden mage<br>skulle fødes på vor jord,<br>skulle fødes på vor jord.<br>","Vise mænd fra østerland<br>drog i verden ud på stand<br>for den konge at oplede,<br>for den konge at tilbede,<br>som var født i samme stund,<br>som var født i samme stund.<br>","De ham fandt i Davids hjem,<br>de ham fandt i Betlehem,<br>uden spir og kongetrone,<br>der kun sad en fattig kone,<br>vugged barnet i sit skød,<br>vugged barnet i sit skød.<br>","Stjernen ledte vise mænd<br>til vor Herre Kristus hen;<br>vi har og en ledestjerne,<br>og når vi den følger gerne,<br>kommer vi til Jesus Krist,<br>kommer vi til Jesus Krist.<br>","Denne stjerne lys og mild,<br>som kan aldrig lede vild,<br>er hans guddoms-ord det klare,<br>som han os lod åbenbare<br>til at lyse for vor fod,<br>til at lyse for vor fod.<br>"]},
 {title:"Blomstre som en rosengård",text:["Blomstre som en rosengård<br>skal de øde vange,<br>blomstre i et gyldenår<br>under fuglesange,<br>mødes skal i stråledans<br>Libanons og Karmels glans,<br>Sarons yndigheder.<br>","Ryste mer ej noget knæ,<br>ingens hænder synke,<br>skyde hvert udgået træ,<br>glatte sig hver rynke,<br>rejse sig det faldne mod,<br>rinde let uroligt blod,<br>frygt og sorg forsvinde!<br>","Herren kommer, Gud med os,<br>troen på ham bier,<br>byde skal han fjenden trods,<br>som sit folks befrier;<br>alt betales på ét bræt:<br>fjenden sker sin fulde ret,<br>folket dobbelt nåde.<br>","Skæres for den sorte stær<br>skal da øjne mange,<br>døve øren, fjern og nær,<br>høre frydesange,<br>som en hind da springer halt,<br>stammer, som for målløs gjaldt,<br>løfter klart sin stemme.<br>","Så i Herrens helligdom<br>grant Esajas spå'de,<br>tiden randt, og dagen kom<br>med Guds lys og nåde,<br>med den Guds og Davids søn,<br>som gør end, i lys og løn,<br>paradis af ørke.<br>","Ære med vor høje drot,<br>med hans Ånd tillige!<br>Sammen de gør alting godt<br>i vort himmerige,<br>døve, selv på gravens bred,<br>øren får at høre med,<br>stummes læber sjunge.<br>","Højt bebude gyldenår<br>glade nytårssange:<br>Blomstre som en rosengård<br>skal de øde vange,<br>mødes skal i stråledans<br>Libanons og Karmels glans,<br>Sarons yndigheder!"]},
 {title:"Barn Jesus i en krybbe lå",text:["Barn Jesus i en krybbe lå,<br>skønt Himlen var hans eje.<br>Hans pude her blev hø og strå,<br>mørkt var det om hans leje!<br>Men stjernen over huset stod,<br>og oksen kyssed barnets fod.<br>Halleluja! Halleluja! Barn Jesus!<br>","Hver sorgfuld sjæl, bliv karsk og glad,<br>ryst af din tunge smerte,<br>et barn er født i Davids stad<br>til trøst for hvert et hjerte.<br>Til barnet vil vi stige ind<br>og blive børn i sjæl og sind.<br>Halleluja! Halleluja! Barn Jesus!<br>"]},
 {title:"Nu tænder vi det første lys",text:["Nu tænder vi det første lys,<br/>det må alene stå.<br/>Vi venter på det lille barn,<br/>som i en krybbe lå.<br/>","Nu tænder vi det andet lys,<br/>da kan vi bedre se.<br/>Vi venter på, at Gud, vor Far,<br/>sin Søn vil sende ned.<br/>","Nu tænder vi det tredje lys,<br/>det er et helligt tal.<br/>Vi venter på en konge, som<br/>skal fødes i en stald.<br/>","Nu tænder vi det fjerde lys,<br/>og natten bli'r til dag.<br/>Vi venter på en frelsermand<br/>for alle folkeslag. <br/>"]},
-{title:"Et barn er født i Bethlehem",text:["Et barn er født i Bethlehem,<br/>Bethlehem,<br/>thi glæder sig Jerusalem.<br/>Halleluja,<br/>halleluja!<br/>","En fattig jomfru sad i løn,<br/>sad i løn,<br/>og fødte himlens kongesøn.<br/>Halleluja,<br/>halleluja!<br/>","Han lagdes i et krybberum,<br/>krybberum,<br/>Guds engle sang med fryd derom.<br/>Halleluja,<br/>halleluja!<br/>","Og østens vise ofred der,<br/>ofred der,<br/>Guld, røgelse og myrra skær.<br/>Halleluja,<br/>halleluja!<br/>","Forvunden er nu al vor nød,<br/>al vor nød,<br/>os er i dag en frelser fød.<br/>Halleluja<br/>halleluja!<br/>","Guds kære børn vi blev påny,<br/>blev påny,<br/>skal holde jul i himmelby.<br/>Halleluja,<br/>halleluja!<br/>","På stjernetæpper lyseblå,<br/>lyseblå,<br/>skal glade vi til kirke gå.<br/>Halleluja<br/>halleluja!<br/>","Guds engle der os lære brat,<br/>lære brat,<br/>at synge, som de sang i nat.<br/>Halleluja,<br/>halleluja!<br/>","Da vorde engle vi som de,<br/>vi som de,<br/>Guds milde ansigt skal vi se.<br/>Halleluja,<br/>halleluja!<br/>","Ham være pris til evig tid,<br/>evig tid,<br/>for frelser bold og broder blid!<br/>Halleluja,<br/>halleluja!"]},
-{title:"Der er noget i luften",text:["Der er noget i luften<br/>jeg véd ikke hvad,<br/>som forår, skønt skoven<br/>har mistet hvert blad,<br/>der er noget i luften<br/>som rosernes duften,<br/>som fuglenes fryd,<br/>skønt rosen er falmet,<br/>&nbsp;&nbsp;og fuglen<br/>er draget mod syd.","Der er noget i luften,<br/>som gør mig så glad,<br/>som trøster mit hjerte<br/>i ungdommens bad,<br/>der er noget herinde,<br/>et strålende minde<br/>med kærter og sang,<br/>om julen derhjemme,<br/>&nbsp;&nbsp;derhjemme<br/>hos moder en gang.<br/>","Der er noget i luften,<br/>et barndommens bud,<br/>som lyser imod mig<br/>som stjernen fra Gud,<br/>som leder mig stille<br/>til frelseren lille<br/>med barndommens fryd,<br/>skønt barndommen<br/>&nbsp;&nbsp;flygted som fuglen,<br/>der rejste mod syd.<br/>","O kom til os alle,<br/>du højtidens drot,<br/>om lokken er gylden,<br/>om håret er gråt!<br/>Udbred dine hænder,<br/>mens lysene brænder,<br/>og skænk os din fred,<br/>thi evig, ja evig<br/>&nbsp;&nbsp;er glæden,<br/>når du følger med."]},
+{title:"Et barn er født i Bethlehem", audio: "www/audio/Et barn er fodt i Betlehem.mp3", text:["Et barn er født i Bethlehem,<br/>Bethlehem,<br/>thi glæder sig Jerusalem.<br/>Halleluja,<br/>halleluja!<br/>","En fattig jomfru sad i løn,<br/>sad i løn,<br/>og fødte himlens kongesøn.<br/>Halleluja,<br/>halleluja!<br/>","Han lagdes i et krybberum,<br/>krybberum,<br/>Guds engle sang med fryd derom.<br/>Halleluja,<br/>halleluja!<br/>","Og østens vise ofred der,<br/>ofred der,<br/>Guld, røgelse og myrra skær.<br/>Halleluja,<br/>halleluja!<br/>","Forvunden er nu al vor nød,<br/>al vor nød,<br/>os er i dag en frelser fød.<br/>Halleluja<br/>halleluja!<br/>","Guds kære børn vi blev påny,<br/>blev påny,<br/>skal holde jul i himmelby.<br/>Halleluja,<br/>halleluja!<br/>","På stjernetæpper lyseblå,<br/>lyseblå,<br/>skal glade vi til kirke gå.<br/>Halleluja<br/>halleluja!<br/>","Guds engle der os lære brat,<br/>lære brat,<br/>at synge, som de sang i nat.<br/>Halleluja,<br/>halleluja!<br/>","Da vorde engle vi som de,<br/>vi som de,<br/>Guds milde ansigt skal vi se.<br/>Halleluja,<br/>halleluja!<br/>","Ham være pris til evig tid,<br/>evig tid,<br/>for frelser bold og broder blid!<br/>Halleluja,<br/>halleluja!"]},
+{title:"Der er noget i luften", audio: "www/audio/Der er noget i luften.mp3", text:["Der er noget i luften<br/>jeg véd ikke hvad,<br/>som forår, skønt skoven<br/>har mistet hvert blad,<br/>der er noget i luften<br/>som rosernes duften,<br/>som fuglenes fryd,<br/>skønt rosen er falmet,<br/>&nbsp;&nbsp;og fuglen<br/>er draget mod syd.","Der er noget i luften,<br/>som gør mig så glad,<br/>som trøster mit hjerte<br/>i ungdommens bad,<br/>der er noget herinde,<br/>et strålende minde<br/>med kærter og sang,<br/>om julen derhjemme,<br/>&nbsp;&nbsp;derhjemme<br/>hos moder en gang.<br/>","Der er noget i luften,<br/>et barndommens bud,<br/>som lyser imod mig<br/>som stjernen fra Gud,<br/>som leder mig stille<br/>til frelseren lille<br/>med barndommens fryd,<br/>skønt barndommen<br/>&nbsp;&nbsp;flygted som fuglen,<br/>der rejste mod syd.<br/>","O kom til os alle,<br/>du højtidens drot,<br/>om lokken er gylden,<br/>om håret er gråt!<br/>Udbred dine hænder,<br/>mens lysene brænder,<br/>og skænk os din fred,<br/>thi evig, ja evig<br/>&nbsp;&nbsp;er glæden,<br/>når du følger med."]},
 {title:"Nu tænder vi lyset",text:["Nu tænder vi lyset, om Advent det melder<br/>til hver som vil lytte, nu lyset fortæller<br/>om Ham, der som barn lod til jorden sig føde,<br/>så julelys tændes i mørke og øde.<br/>","Nu tænder vi lyset, velkommen vi byder<br/>det år, hvor Han kommer, i ordet, som lyder.<br/>Det lover, hvad end der i året vil komme,<br/>Guds lys i det ny, som i det, der er omme.<br/>","Nu tænder vi lyset, med bøn det vi tænder,<br/>at mørket må spredes og lysene brænde<br/>med fred over lande og fred i vor kirke,<br/>med fred over menneskers arbejde og virke.<br/>","Nu tænder vi lyset, det brænder så stille.<br/>I bøn vi os bøjer! Alt ske som du ville.<br/>Må Advent betyde: Til mig vil du komme<br/>med lys over vejen til dagen er omme.<br/>","Nu tænder vi lys, det er Advent, Han kommer<br/>engang som den store, retfærdige dommer,<br/>og selv har Han bedt os beredte at være,<br/>med lys i vor lampe gå ind til Hans ære.<br/>"]},
 {title:"Kom alle kristne", text:[
 	"Kom, alle kristne,<br/>lad os sammen ile<br/>til barnet i krybben i Betlehem.<br/>Frem vil vi træde<br/>for Guds Søn med glæde.<br/>Kom, lad os ham tilbede,<br/>kom, lad os ham tilbede,<br/>kom, lad os ham tilbede<br/>i Betlehem!<br/>",
 	"Syng, englehære,<br/>giver Herren ære,<br/>at han lod sig føde i Betlehem.<br/>Lys er oprunden,<br/>fred på jord er kommen.<br/>Kom, lad os ham tilbede,<br/>kom, lad os ham tilbede,<br/>kom, lad os ham tilbede<br/>i Betlehem!<br/>",
-	"Lov, pris og ære<br/>skal for evigt være<br/>vor hyldest til barnet i Betlehem.<br/>Evigt Gud Fader<br/>Himlens dør oplader.<br/>Kom, lad os ham tilbede,<br/>kom, lad os ham tilbede,<br/>kom, lad os ham tilbede<br/>i Betlehem!"]}
+	"Lov, pris og ære<br/>skal for evigt være<br/>vor hyldest til barnet i Betlehem.<br/>Evigt Gud Fader<br/>Himlens dør oplader.<br/>Kom, lad os ham tilbede,<br/>kom, lad os ham tilbede,<br/>kom, lad os ham tilbede<br/>i Betlehem!"]},
+{title: "Jeg er så glad hver julekvæld",
+ text:[
+"Jeg er så glad hver julekvæld,<br/>" +
+"for da blev Jesus født,<br/>"+
+"da lyste stjernen som en sol,<br/>"+
+"og engle sang så sødt.<br/>",
+
+"Det lille barn i Betlehem,<br/>"+
+"han var en konge stor,<br/>"+
+"som kom fra Himlens høje slot<br/>"+
+"ned til vor arme jord.",
+
+"Nu bor han højt i Himmerig,<br/>"+
+"han er Guds egen Søn,<br/>"+
+"men husker altid på de små<br/>"+
+"og hører deres bøn.",
+
+"Jeg er så glad hver julekvæld,<br/>"+
+"da synger vi hans pris.<br/>"+
+"Da åbner han for alle små<br/>"+
+"sit lyse Paradis.",
+
+"Jeg holder af hver julekvæld<br/>"+
+"og af den Herre Krist,<br/>"+
+"og at han elsker mig igen,<br/>"+
+"det ved jeg ganske vist."
+]},
+{title:"Det var ikke en nat som de andre",
+ text:[
+"Det var ikke en nat som de andre,<br/>"+
+"thi al skabningen holdt på sit vejr<br/>"+
+"og så engle i tusindvis vandre<br/>"+
+"rundt på jorden med stjernernes skær.<br/>"+
+"Denne nat blev et lyshav i tiden,<br/>"+
+"den har lyst gennem slægterne siden,<br/>"+
+"dengang Gud selv blev menneskets lys.",
+
+"Det var ikke en himmel som andre,<br/>"+
+"den blev åbnet af lys og af lyd,<br/>"+
+"man så stjerner bevæges og vandre<br/>"+
+"imod Betlehem, landet mod syd,<br/>"+
+"så at hyrderne glemte at fryse,<br/>"+
+"i Guds billede måtte de lyse,<br/>"+
+"dengang Gud selv blev menneskets lys.",
+
+"Det var ikke et barn som de andre,<br/>"+
+"der blev født under himlen den nat,<br/>"+
+"det var Gud selv, der nu ville vandre<br/>"+
+"for at finde på jorden sin skat.<br/>"+
+"I den usleste mand eller kvinde<br/>"+
+"så han perlen så kosteligt skinne,<br/>"+
+"dengang Gud selv blev menneskets lys.",
+
+"Det var ikke en herre som andre,<br/>"+
+"han fik ikke i herberget rum,<br/>"+
+"måtte husvild imellem os vandre,<br/>"+
+"til sin offerbænk førtes han stum,<br/>"+
+"i den fremmedes grav blev han fange.<br/>"+
+"I hans hus er der plads til de mange,<br/>"+
+"han er Gud, han er menneskets lys.",
+
+"Det er ikke et ord som de andre,<br/>"+
+"det kan styrte selv dødens tyran,<br/>"+
+"det er lyset, hvorved vi skal vandre<br/>"+
+"gennem mørket til morgenens land.<br/>"+
+"Dette ord blev et lyshav i tiden,<br/>"+
+"det har lyst gennem slægterne siden,<br/>"+
+"det er Gud, det er menneskets lys."
+]
+}
 ];
 
 sange.sort(function (s1, s2) {
-	var A = s1.title.toUpperCase();
-	var B = s2.title.toUpperCase();
-	return ((A < B) ? -1 :
-		      (A > B) ? +1 : 0);
-});
-
-function getPhoneGapPath() {
-	return "/android_asset/www/";
-//    var path = window.location.pathname;
-//		console.log(">>>> PATH " + path);
-//    path = path.substr( path, path.length - 10 );
-//		console.log("<><>< PATH " + path);
-//    return 'file://' + path;
-};
+		var A = s1.title.toUpperCase();
+		var B = s2.title.toUpperCase();
+		return ((A < B) ? -1 :
+				(A > B) ? +1 : 0);
+		});
 
 function OversigtCntl($scope) {
 	$scope.sange = sange;
+	$scope.lokale = lokale;
 	$scope.evangelier = evangelier;
+
+	function onDeviceReady () {
+		window.plugins.insomnia.keepAwake();
+	}
+
+	document.removeEventListener("deviceready",onDeviceReady);
+	document.addEventListener("deviceready",onDeviceReady,false);
+
 }
 
-function SangCntl($scope, $routeParams, $location) {
-	$scope.isPlaying = false;
+function SangCntl($scope, $routeParams) {
 	$scope.sangId = $routeParams.sangId;
+	$scope.isLok = $routeParams.lokId;
+	$scope.isPlaying = false;
+
+	function goBack() {
+		$scope.stopPlay();
+		document.removeEventListener("backbutton", goBack);
+		window.history.go(-1);
+	}
+
+	function pause() {
+		$scope.stopPlay();
+	}
+
+	document.removeEventListener("backbutton", goBack);
+	document.addEventListener("backbutton", goBack, false);
+	document.removeEventListener("pause", pause);
+	document.addEventListener("pause", pause, false);
+
 	$scope.getSong = function(id) {
+		if(typeof $scope.isLok !== "undefined") {
+			return lokale[id];
+		}
 		return sange[id];
 	}
 
 	var media;
-	$scope.goBack = function() {
-		if(media) {
-			try{
-				media.stop();
-				media.release();
-			} catch(e) {
+	var verse = 1;
+
+	function repeatPlay(id) {
+		return function() {
+			if(verse < sange[id].text.length) {
+				verse += 1;
+				media.play();
+			} else {
+				$scope.stopPlay();
 			}
 		}
-		$location.path("/oversigt");
 	}
 
-		$scope.playSong = function() {
-				if(!media) {
-						console.log("no media!");
-						return;
-				}
-				if($scope.isPlaying) {
-						console.log("stopping");
-						media.stop();
-						$scope.isPlaying = false;
-				} else {
-						console.log("starting replay of " + sange[$scope.sangId].audio);
-						media.play();
-						$scope.isPlaying = true;
-				}
+	$scope.playSong = function(id) {
+		media = new Media(cordova.file.applicationDirectory + sange[id].audio, repeatPlay(id));
+		if(media) {
+			media.play();
+			verse = 1;
+			$scope.isPlaying = true;
 		}
-		
-		var m2;
-		$scope.playSong2 = function() {
-			
-			console.log("Media2");
-			m2.play();
-		}
+	}
 
-		document.addEventListener("deviceready",onDeviceReady,false);
-
-		var platform;
-		function onDeviceReady () {
-				console.log(">>>>> ON DEVICE READY <<<<<");
-				platform = device.platform;
-				var onAndroid = platform.toUpperCase() === "ANDROID";
-				var prefix = onAndroid ? "/android_asset/www/" : "";
-				var mediaUrl = prefix + sange[$scope.sangId].audio;
-				console.log("media found at " + mediaUrl + " for platform " + platform);
-				media = new Media(mediaUrl,
-					function() {
-						console.log("done playing");
-						$scope.isPlaying = false;
-					},
-					function(err) {
-						console.log("************************** error");
-						console.log(JSON.stringify(err));
-						$scope.isPlaying = false;
-					});
-				m2 = new Media("/android_asset/www/audio/julelys2.mp3", null, function(e) { 
-								console.log("error in media2: ");
-								console.log(JSON.stringify(e));
-							});
-				console.log("media? " + media + " " + media.play);
-				//  media.play();
+	$scope.stopPlay = function() {
+		if(media && $scope.isPlaying) {
+			media.stop();
+			$scope.isPlaying = false;
+			media.release();
+			media = null;
+			verse = 1;
+			$scope.$apply();
 		}
+	}
+
+	$scope.goBack = goBack;
+
 
 }
 

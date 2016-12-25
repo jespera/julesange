@@ -2,19 +2,18 @@
 <div id="wrap">
 	<img ng-src="images/tree.png" />
 </div>
-<script>	
-	var cur_url = window.localStorage.getItem("cur_url");
-	if(cur_url) {
-		window.localStorage.removeItem("cur_url");
-		window.location.hash = cur_url;
-	}
-</script>
 <ul>
 	<li ng-repeat="sang in sange">
-	<p><a href="#/sang/{{$index}}"><b ng-bind-html="sang.title"></b></a></p>
+		<p><a href="#/sang/{{$index}}/"><b ng-bind-html="sang.title"></b><span style="font-size: larger; float: right;" ng-show="sang.audio">♫♫</span></a></p>
 	</li>
 </ul>
 <br>
+<h2>Lokale sange</h2>
+<ul>
+	<li ng-repeat="lok in lokale">
+		<p><a href="#/sang/{{$index}}/{{$index}}"><b ng-bind-html="lok.title"></b></a></p>
+	</li>
+</ul>
 <h2>Juletekster...</h2>
 <ul>
 <li ng-repeat="evang in evangelier">
@@ -22,3 +21,8 @@
 </p>
 </li>
 </ul>
+<p>Melodier indspillet af Linda Rønne Søndberg.</p>
+<p><a style="text-decoration: underline; text-align: center;" href="#" onclick="cordova.InAppBrowser.open('https://myspace.com/lindasoe/music/album/f-rste-demo-19520402', '_system');">
+		Klik her og hør hendes egen musik!
+	</a>
+</p>

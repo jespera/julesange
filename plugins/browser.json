@@ -18,13 +18,19 @@
         }
     },
     "installed_plugins": {
-        "org.apache.cordova.file": {
-            "PACKAGE_NAME": "dk.jellej"
-        },
         "org.apache.cordova.device": {
             "PACKAGE_NAME": "dk.jellej"
         },
-        "org.apache.cordova.media": {
+        "nl.x-services.plugins.insomnia": {
+            "PACKAGE_NAME": "dk.jellej"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "dk.jellej"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "dk.jellej"
+        },
+        "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "dk.jellej"
         }
     },

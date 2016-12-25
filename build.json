@@ -1,0 +1,9 @@
+{
+     "android": {
+         "release": {
+             "keystore": "jman-release.keystore",
+             "alias": "jman-release",
+             "keystoreType": ""
+         }
+     }
+ }

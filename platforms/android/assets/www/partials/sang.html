@@ -15,11 +15,12 @@
 <h1 style="margin-left: 28px;" ng-bind-html="getSong(sangId).title"></h1>
 <div class="songtext">
 	<ol>
-		<a ng-show="getSong(sangId).audio" ng-click="playSong()" >Spil melodi 1</a>
-		<a ng-show="getSong(sangId).audio" ng-click="playSong2()" >Spil melodi 2</a>
+		<div class="audio-elem" ng-show="getSong(sangId).audio">
+			<a ng-show="!isPlaying" ng-click="playSong(sangId)" ><img src="images/play.png"/></a>
+			<a ng-show="isPlaying" ng-click="stopPlay()"><img src="images/stop.png"/></a>
+		</div>
 		<li ng-repeat="verse in getSong(sangId).text">
-			<p ng-bind-html="verse"></p>			
-		</li>	
+			<p ng-bind-html="verse"></p>
+		</li>
 	</ol>
 </div>
-

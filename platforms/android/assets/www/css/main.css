@@ -1,3 +1,13 @@
+.audio-elem {
+	width: 80px;
+}
+
+.stuck {
+	right: 4px;
+	position: fixed;
+	top: 0px;
+}
+
 body {
 	background-color: #000000;
 	color: #a0a0a0;
